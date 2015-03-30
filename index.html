@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    
+    <title>Welcome to my webpage</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.anchor.js" type="text/javascript"></script>
+
+    
+    <link href="styles/style.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/jflow.style.css" type="text/css" rel="stylesheet"/>
+
+    
+    <script src="scripts/jflow.plus.js" type="text/javascript"></script>
+
+    <script language="javascript">
+       $(document).ready(function(){
+          $("#myController").jFlow({
+            controller: ".jFlowControl", // must be class, use . sign
+            slideWrapper : "#jFlowSlider", // must be id, use # sign
+            slides: "#mySlides",  // the div where all your sliding divs are nested in
+            selectedWrapper: "jFlowSelected",  // just pure text, no sign
+            width: "800px",  // this is the width for the content-slider
+            height: "350px",  // this is the height for the content-slider
+            duration: 400,  // time in miliseconds to transition one slide
+            prev: ".jFlowPrev", // must be class, use . sign
+            next: ".jFlowNext", // must be class, use . sign
+            auto: true  
+       });
+   });
+   </script> 
+  </head>
+<body>
+
+    <header> <!-- HTML5 header tag -->
+    
+    	<div id="headerer">
+        <h1>Welcome!!!  Welcome!!!  </h1>
+    		<nav> 
+    			<ul>
+    				<li><a class="introlink anchorLink" href="#intro">Home</a></li>
+    				<li><a class="portfoliolink anchorLink" href="#portfolio">Portfolio</a></li>
+    				<li><a class="aboutlink anchorLink" href="#about">About</a></li>
+    				<li><a class="contactlink anchorLink" href="#contact">Contact</a></li>
+    			</ul>				
+    		</nav>
+    	
+    	</div>
+    
+    </header>
+
+    <section id="contenter">
+    
+    	<section id="intro">
+    	
+    		<h2 class="intro"> <strong>Welcome to my web page.</strong>	</h2>	
+    	<hr>
+        <h4> </h4>	
+        <div id="jFlowCredits">
+
+<div id="container">
+<div id="mySlides">
+    
+    <div id="slide3">
+        <img src="images/slaid4.jpg" alt="Slide 4 " />
+        
+    </div>
+    <div id="slide3">
+        <img src="images/slaid5.jpg" alt="Slide 5 " />
+        
+    </div>
+    <div id="slide3">
+        <img src="images/slaid6.jpg" alt="Slide 6 " />
+        
+    </div>
+    <div id="slide3">
+        <img src="images/slaid7.jpg" alt="Slide 7 " />
+        
+    </div>
+    <div id="slide3">
+        <img src="images/slaid8.jpg" alt="Slide 8 " />
+        
+    </div>
+    <div id="slide3">
+        <img src="images/slaid9.jpg" alt="Slide 9 " />
+        
+    </div>
+    <div id="slide3">
+        <img src="images/slaid10.jpg" alt="Slide 10 " />
+        
+    </div>
+    
+</div>
+
+<div id="myController">
+   
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+   <span class="jFlowControl"></span>
+</div>
+
+<span class="jFlowPrev"><div></div></span>
+<span class="jFlowNext"><div></div></span>
+</div>
+    				
+    	</section>
+
+    	<section id="portfolio"> 
+    	
+    		<h2 class="work">My Portfolio</h2>
+    			
+    		<ul class="work">
+    			<li>
+    				<img src="images/introo.jpg"  />
+    			</li>
+    			<li>
+    				<img src="images/ss.jpg"  />
+    			</li>
+    			<li>
+    				<img src="images/almata.jpg"  />
+    			</li>
+    			<li>
+    				<img src="images/cours.jpg" />
+    			</li>
+    			<li>
+    				<img src="images/almata2.jpg" />
+    			</li>
+                <li>
+                    <img src="images/burana.jpg" />
+                </li>
+                <li>
+                    <img src="images/atabeit.jpg"  />
+                </li>
+                <li>
+                    <img src="images/a1d.jpg"  />
+                </li>
+                <li>
+                    <img src="images/sherbol.jpg" />
+                </li>
+    			
+    		</ul>
+    				
+    	</section>
+    			
+    	<section id="about"> 
+    	
+    		<h2 class="about">About Me</h2>
+    		
+    		<p>My name is Sherbolot. I'm from Alai in Osh.Now I'm a student . My univercity's name is International Ataturk-Alatoo .
+            I'm future programmer or web devoloper.My hobbies playing football and traveling.Education<br>2002-2010-Secondary school named Eshkul Myrzaev in Alai Osh
+    <br>2010-2011-Secondary school  named  Ala-archa<br>
+    2011-2012-College  nemed Eurasia<br>
+   2012-2013-IAAU-Hazyrlyk<br>
+   2013-2015  IAAU computer science department <br>Thats all.</p>
+    	
+    	</section>
+    			
+    	<section id="contact"> 
+    	
+    		<h2 class="contact">Contact Me</h2>
+    		<div style="background-color:black;height:250px;padding-bottom:50px;">
+    		   		
+    		<h3>My number: (996) 702 69 73 82.</h3>
+	
+	
+
+            <h3>Email : sherbolot.amatbekuulu@iaau.edu.kg.</h3>
+            <h3>Adress : Kyrgyzstan,Bishkek,Kurmanalieva - 8.</h3>
+            <hr>
+             <div id="facebook"></div>
+            
+            
+            <div id="gmail">
+               
+            </div>
+
+
+    	
+    	</section>
+         			
+    	
+    
+   
+</body>
+
+</html>
